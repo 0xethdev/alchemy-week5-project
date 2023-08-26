@@ -1,0 +1,97 @@
+body {
+  margin: 50px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  flex-direction: column;
+  width: 1000px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lower-container {
+  flex-direction: column;
+  align-self: center;
+  align-items:flex-end;
+  margin: 20px;
+  width: 960px;
+  background-color: white;
+  
+}
+
+.section {
+  position: relative; /* Position the labels and title relative to this section */
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column; /* Stack the items vertically */
+  align-items: flex-end; /* Align items to the start of the section */
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.labels {
+  align-self: center;
+  align-items:flex-end;
+  margin-bottom: 16px;
+  margin-right: 8px;
+  margin-left: 8px;
+  width:920px;
+  
+}
+
+.button {
+  align-self: center;
+  background-color: #ffa600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* Rounded corners */
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e39300; /* Darker shade on hover */
+}
+
+.section-title {
+  position: absolute; /* Position the title absolutely */
+  top: -30px; /* Adjust this value to control the vertical position */
+  left: 20px; /* Adjust this value to control the horizontal position */
+  background-color: white; /* Make sure the title is over a white background */
+  padding: 0 10px;
+  font-size: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+.label {
+  background-color: #e0e0e0;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin: 8px; /* Add some spacing between labels */
+  font-size: 14px;
+  
+}
+
+.input-field {
+  width: 100%; /* Set a fixed width for the input fields */
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  
+}
+
+
